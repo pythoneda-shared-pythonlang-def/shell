@@ -23,7 +23,7 @@
       inputs.nixos.follows = "nixos";
     };
     pythoneda-shared-domain = {
-      url = "github:pythoneda-shared-def/domain/0.0.31";
+      url = "github:pythoneda-shared-def/domain/0.0.32";
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-banner.follows = "pythoneda-shared-banner";
