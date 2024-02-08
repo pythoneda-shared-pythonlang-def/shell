@@ -1,7 +1,7 @@
 # GNU GENERAL PUBLIC LICENSE
 # Version 3, 29 June 2007
 #
-# Copyright (C) 2024-today rydnr https://github.com/pythoneda-shared-pythonlang/shell
+# Copyright (C) 2024-today rydnr https://github.com/pythoneda-shared-pythonlang-def/shell
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -17,9 +17,7 @@ packages = [{include = "@package@"}]
 
 [tool.poetry.dependencies]
 python = "^@pythonMajorMinorVersion@"
-pythoneda-shared-banner = "^@pythonedaSharedBanner@"
-pythoneda-shared-domain = "^@pythonedaSharedDomain@"
-
+pythoneda-shared-pythonlang-domain = "^@pythonedaSharedPythonlangDomain@"
 
 [build-system]
 requires = ["poetry-core"]
